@@ -24,7 +24,7 @@ repository: "badrinabil/badrinabil.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Nabil"
   pronouns         : # example: "she/her"  
   bio              : "Researcher in Information Systems, Computer Science, and Artificial Intelligence, with interests in intelligent systems, data analysis, and digital technologies."
