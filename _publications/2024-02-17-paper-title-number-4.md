@@ -7,6 +7,7 @@ excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'https://badrinabil.github.io/files/paper3.pdf'
+bibtexurl: 'https://badrinabil.github.io/files/bibtex4.bib'
 citation: 'Your Name, You. (2024). &quot;Abusive and hate speech classification in arabic text using pre-trained language models and data augmentation.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
