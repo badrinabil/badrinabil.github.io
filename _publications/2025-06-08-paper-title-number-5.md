@@ -6,6 +6,7 @@ permalink: /publication/2025-06-08-paper-title-number-5
 excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2025-06-08
 venue: 'GitHub Journal of Bugs'
+category: conferences
 paperurl: 'https://badrinabil.github.io/files/paper3.pdf'
 bibtexurl: 'https://badrinabil.github.io/files/bibtex5.bib'
 citation: 'Your Name, You. (2024). &quot;Abusive and hate speech classification in arabic text using pre-trained language models and data augmentation.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
