@@ -173,6 +173,34 @@
   </div>
   {% endif %}
   
+  {% if cv.journalArticles.size > 0 %}
+  <!-- Journal Articles -->
+  <div class="cv-section">
+    <h2>Journal Articles</h2>
+    <ul class="cv-list">
+      {% for article in cv.journalArticles %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ article.name }}</div>
+          <div class="cv-item-date">{{ article.releaseDate | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ article.publisher }}</div>
+          {% if article.summary %}
+          <div class="cv-item-detail">{{ article.summary }}</div>
+          {% endif %}
+          {% if article.website %}
+          <div class="cv-item-detail">
+            <a href="{{ article.website }}" target="_blank">View Publication</a>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
   <div class="cv-section">
