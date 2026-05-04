@@ -1,12 +1,13 @@
 ---
 title: "Paper Title Number 5, with math $$E=mc^2$$"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+category: manuscripts
+permalink: /publication/2025-06-08-paper-title-number-5
 excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
+date: 2025-06-08
 venue: 'GitHub Journal of Bugs'
 paperurl: 'https://badrinabil.github.io/files/paper3.pdf'
+bibtexurl: 'https://badrinabil.github.io/files/bibtex5.bib'
 citation: 'Your Name, You. (2024). &quot;Abusive and hate speech classification in arabic text using pre-trained language models and data augmentation.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
