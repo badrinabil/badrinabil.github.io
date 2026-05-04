@@ -90,10 +90,10 @@
   "journalArticles": [
     {
       "name": "Abusive and hate speech classification in arabic text using pre-trained language models and data augmentation",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
+      "publisher": "GitHub Journal of Bugs",
+      "releaseDate": "2024-02-17",
       "website": "https://badrinabil.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "summary": "This paper is about fixing template issue #693."
     }
   ],
   "presentations": [
