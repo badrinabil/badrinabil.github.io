@@ -84,7 +84,10 @@
       "publisher": "Journal 1",
       "releaseDate": "2015-10-01",
       "website": "https://badrinabil.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "summary": "Hateful content on social media is a worldwide problem that adversely affects not just the targeted individuals but also anyone whose content is accessible. The majority of studies that looked at the automatic identification of inappropriate content addressed the English language, given the availability of resources. Therefore, there are still a number of low-resource languages that need more attention from the community. This article focuses on the Arabic dialect, which has several specificities that make the use of non-Arabic models inappropriate. Our hypothesis is that leveraging pre-trained language models (PLMs) specifically designed for Arabic, along with data augmentation techniques, can significantly enhance the detection of hate speech in Arabic mono- and multi-dialect texts.
+To test this hypothesis, we conducted a series of experiments addressing three key research questions: (RQ1) Does text augmentation enhance the final results compared to using an unaugmented dataset? (RQ2) Do Arabic PLMs outperform other models utilizing techniques such as fastText and AraVec word embeddings? (RQ3) Does training and fine-tuning models on a multilingual dataset yield better results than training them on a monolingual dataset?
+Our methodology involved the comparison of PLMs based on transfer learning, specifically examining the performance of DziriBERT, AraBERT v2, and BERT-base-arabic models. We implemented text augmentation techniques and evaluated their impact on model performance. The tools used included fastText and AraVec for word embeddings, as well as various PLMs for transfer learning.
+The results demonstrate a notable improvement in classification accuracy, with augmented datasets showing an increase in performance metrics (accuracy, precision, recall, and F1-score) by up to 15–21% compared to non-augmented datasets. This underscores the potential of data augmentation in enhancing the models’ ability to generalize across the nuanced spectrum of Arabic dialects."
     },
     {
       "name": "Paper Title Number 4",
