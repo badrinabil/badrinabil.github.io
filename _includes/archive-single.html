@@ -54,9 +54,19 @@
     
     {% if post.collection == 'publications' %}
       <p>
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% else %}Download Paper{% endif %} | 
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% else %}Download Slides{% endif %} | 
-        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% else %}Download Bibtex{% endif %}
+        {% assign links = "" %}
+        {% if post.paperurl %}
+          {% assign links = links | append: '<a href="' | append: post.paperurl | append: '">Download Paper</a>' %}
+        {% endif %}
+        {% if post.slidesurl %}
+          {% if links != "" %}{% assign links = links | append: " | " %}{% endif %}
+          {% assign links = links | append: '<a href="' | append: post.slidesurl | append: '">Download Slides</a>' %}
+        {% endif %}
+        {% if post.bibtexurl %}
+          {% if links != "" %}{% assign links = links | append: " | " %}{% endif %}
+          {% assign links = links | append: '<a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' %}
+        {% endif %}
+        {{ links }}
       </p>
     {% endif %}
     
